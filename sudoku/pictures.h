@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 
+const int size_heart_pictures = 10;
 const std::string hearts[10] = { "   _..._     _..._  ",
                                  " .$$$$$$$sss$$$$$$$.",
                                  " $$$$$$$$$$$$$$$$$$$",
@@ -12,7 +13,9 @@ const std::string hearts[10] = { "   _..._     _..._  ",
                                  "       '$$$$$'      ",
                                  "         '$'        " };
 
-const std::string lose[16] = {"YYYYYYY       YYYYYYY     OOOOOOOOO     UUUUUUUU     UUUUUUUU      LLLLLLLLLLL                   OOOOOOOOO         SSSSSSSSSSSSSSS  EEEEEEEEEEEEEEEEEEEEEE\n"
+
+
+const std::string lose = {    "YYYYYYY       YYYYYYY     OOOOOOOOO     UUUUUUUU     UUUUUUUU      LLLLLLLLLLL                   OOOOOOOOO         SSSSSSSSSSSSSSS  EEEEEEEEEEEEEEEEEEEEEE\n"
                               "Y:::::Y       Y:::::Y   OO:::::::::OO   U::::::U     U::::::U      L:::::::::L                 OO:::::::::OO     SS:::::::::::::::S E::::::::::::::::::::E\n"
                               "Y:::::Y       Y:::::Y OO:::::::::::::OO U::::::U     U::::::U      L:::::::::L               OO:::::::::::::OO  S:::::SSSSSS::::::S E::::::::::::::::::::E\n"
                               "Y::::::Y     Y::::::YO:::::::OOO:::::::OUU:::::U     U:::::UU      LL:::::::LL              O:::::::OOO:::::::O S:::::S     SSSSSSS EE::::::EEEEEEEEE::::E\n"
@@ -29,7 +32,7 @@ const std::string lose[16] = {"YYYYYYY       YYYYYYY     OOOOOOOOO     UUUUUUUU 
                               "    Y:::::::::::Y       OO:::::::::OO       UU:::::::::UU          L::::::::::::::::::::::L    OO:::::::::OO    S:::::::::::::::SS  E::::::::::::::::::::E\n"
                               "    YYYYYYYYYYYYY         OOOOOOOOO           UUUUUUUUU            LLLLLLLLLLLLLLLLLLLLLLLL      OOOOOOOOO       SSSSSSSSSSSSSSS    EEEEEEEEEEEEEEEEEEEEEE\n" };
 
-const std::string win[16] = { "YYYYYYY       YYYYYYY     OOOOOOOOO     UUUUUUUU     UUUUUUUU      WWWWWWWW                           WWWWWWWW IIIIIIIIII NNNNNNNN        NNNNNNNN\n"
+const std::string win =     { "YYYYYYY       YYYYYYY     OOOOOOOOO     UUUUUUUU     UUUUUUUU      WWWWWWWW                           WWWWWWWW IIIIIIIIII NNNNNNNN        NNNNNNNN\n"
                               "Y:::::Y       Y:::::Y   OO:::::::::OO   U::::::U     U::::::U      W::::::W                           W::::::W I::::::::I N:::::::N       N::::::N\n"
                               "Y:::::Y       Y:::::Y OO:::::::::::::OO U::::::U     U::::::U      W::::::W                           W::::::W I::::::::I N::::::::N      N::::::N\n"
                               "Y::::::Y     Y::::::YO:::::::OOO:::::::OUU:::::U     U:::::UU      W::::::W                           W::::::W II::::::II N:::::::::N     N::::::N\n"
